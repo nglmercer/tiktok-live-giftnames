@@ -23,50 +23,22 @@ body {
     -moz-osx-font-smoothing: grayscale
 }
 
-*,
-*:before,
-*:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-.page-fade-reset {
-    opacity: 1;
-    -webkit-transition-duration: 0ms;
-    transition-duration: 0ms
-}
-
-.page-fade-out {
-    opacity: 0;
-    -webkit-transition-property: opacity;
-    transition-property: opacity;
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    -webkit-backface-visibility: hidden
-}
-
-
-
 .row {
     width: 150%;
     max-width: 100rem;
-    margin-right: auto;
     margin-top: 0;
     margin-bottom: 0
 }
 
 .column,
 [class*="content-grid"] .grid-item {
-    min-width: 140px;  /* Cambia esto al tamaño mínimo deseado */
-    padding-left: .5rem;
+    min-width: 140px;
+    /* Cambia esto al tamaño mínimo deseado */
     float: left;
 }
 
-
 .column>*:first-child {
     margin-top: 0
-    
 }
 
 .row.collapse .column {
@@ -74,11 +46,9 @@ body {
     padding-right: 0
 }
 
-
 .width-1 {
     width: 9%;
 }
-
 
 .center {
     text-align: center
@@ -102,7 +72,6 @@ body {
     padding-top: 0!important
 }
 
-
 img {
     max-width: 100%;
     height: auto;
@@ -118,7 +87,7 @@ input {
 input,
 textarea {
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     background: #d3d3d3;
     color: #000000;
 }
@@ -133,9 +102,8 @@ textarea {
         max-width: 40rem
     }
     .width-1 {
-        width: 50%  /* Cambiado de 100% a 50% para mostrar 2 columnas */
+        width: 50%/* Cambiado de 100% a 50% para mostrar 2 columnas */
     }
-
 }
 
 .grid-container.no-margins .grid,

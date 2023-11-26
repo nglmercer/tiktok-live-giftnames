@@ -39,6 +39,62 @@
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             grid-gap: 10px;
         }
+        
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px solid #282828;
+}
+
+input[type="text"] {
+    /* Establece el ancho del input al 100% del contenedor padre */
+    width: 100%;
+    /* Agrega un padding alrededor del texto en el input */
+    padding: 12px 20px;
+    /* Agrega un margen alrededor del input */
+    margin: 8px 0;
+    /* Asegura que el padding y el borde del input se incluyan en el ancho total del input */
+    box-sizing: border-box;
+    /* Agrega un borde alrededor del input */
+    border: 1px solid #ccc;
+    font-weight: bold;
+    font-size: larger;
+    /* Cambia el color de fondo del input */
+    background-color: rgba(255, 255, 255, 0.833);
+    /* Cambia el color del texto en el input */
+    color: #333;
+}
+
+th,
+td {
+    border: 1px solid #171717;
+    padding: 8px;
+    text-align: center;
+    color: aliceblue;
+}
+
+th {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"]:focus {
+    border-color: #dedede;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
     </style>
 </head>
 
